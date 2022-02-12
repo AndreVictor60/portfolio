@@ -1,0 +1,37 @@
+.clock {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 790px;
+    color: $text-color;
+
+    section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: 2rem;
+        padding: 1rem;
+        width: 100px;
+        border-radius: 5px;
+        border: 2px solid silver;
+        p {
+            font-size: 7rem;
+            font-size: 5.2rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            margin-bottom: 2.3rem;
+            
+        }
+        small{
+            color: $text-color;
+            text-shadow: none;
+        }
+        span {
+            margin-bottom: 1.8rem;
+            font-size: 7rem;
+        }
+    }
+  }
